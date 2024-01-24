@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="informacion" style="padding-left: .1rem;">
+            <h1 class ="StayUpdate">Stay updated!</h1>
+            <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus</p>
+            <div class="caracteristicas">
+                <img src="recursos/icon-list.svg" alt="">
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+            <div class="caracteristicas">
+                <img src="recursos/icon-list.svg" alt="">
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+            <div class="caracteristicas">
+                <img src="recursos/icon-list.svg" alt="">
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+            <div class="addresemail">
+                <div class="pedirEmail">
+                <p id = 'texto'>Email addres</p>
+                <p id="error"></p>
+            </div>
+                <input id = 'miInput' type="email" placeholder="example@gmail.com" >
+            </div>
+            <a href="#" onclick="validarEmail(); return false;"><button class ='subscribe'>Subscribe to monthly newsletter</button></a>
+        </div>
+        <div class="segundaParte">
+            <div class="container_imagen">
+                <img class ='fondo' src="recursos/illustration-sign-up-desktop.svg" alt="">
+            </div>
+            
+           
+        </div>
+
+    </main>
+    <script src= 'scripts/script1.js'></script>
+</body>
+</html>
